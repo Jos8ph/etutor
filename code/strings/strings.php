@@ -5,10 +5,16 @@
  * Date: 9/12/14
  * Time: 10:19 PM
  */
-displayTextDueToLanguage();
+displayTextByLanguage();
 
-function displayTextDueToLanguage() {
-    $lang = 'en';
+/**
+ * Created by Dai
+ * Date: 9/12/14
+ * Time: 10:23 PM
+ * Description: display text based on the language user is viewing
+ */
+function displayTextByLanguage() {
+    $lang = 'vi';
     switch ($lang) {
         case 'en':
             require 'strings_en.php';

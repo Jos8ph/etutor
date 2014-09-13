@@ -1,17 +1,27 @@
+/* <Pre-defined rules> */
 ul {
     padding: 0;
     list-style: none;
 }
 
-body {
-    background-image: url('../../../assets/images/bg_body.png');
+a {
+    text-decoration: none;
 }
 
+body {
+    font-family: sans-serif;
+    background-image: url('../../../assets/images/bg_body.png');
+}
+/* </Pre-define rules> */
+
+/* <header-section> */
 header {
     width: 1024px;
-    height: 150px;
+    height: 140px;
     margin: 50px auto 0 auto;
     background-color: #1992da;
+    position: relative;
+    border: 2px solid rgb(5, 57, 94);
 }
 
 #logo_header {
@@ -25,21 +35,22 @@ header {
 
 #top_bar {
     position: relative;
-    top: -41px;
+    top: -27px;
     float: right;
 }
 
-#top_bar a {
-    text-decoration: none;
+#btn_login_signup {
+    float: left;
+    margin-right: 60px;
+    position: relative;
+    top: 2px;
+    font-size: 14px;
     color: #1570a6;
 }
 
-#top_bar ul li:first-child {
-    margin-right: 50px;
-    position: relative;
-    top: -5px;
-    font-size: 14px;
-    font-family: sans-serif;
+#social_bar {
+    margin: 0;
+    float: left;
 }
 
 #social_bar li {
@@ -48,14 +59,80 @@ header {
 }
 
 #telephone {
-    position: relative;
-    right: -140px;
-    top: 15px;
-    float: right;
-    /*border: 1px dotted black;*/
-    font-family: sans-serif;
+    margin: 0;
+    position: absolute;
+    right: 140px;
+    bottom: 70px;
     font-size: 32px;
     font-weight: bold;
     color: #fbfbfb;
 }
 
+#header_nav {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    float: left;
+}
+
+#header_nav li {
+    float: left;
+}
+
+#header_nav li:last-child {
+    position: absolute;
+    right: 6px;
+    bottom: 7px;
+}
+
+#header_nav a {
+    display: inline-block;
+    padding: 11px 13px 10px 13px;
+    font-size: 15px;
+    color: #f1f1f1;
+}
+
+#header_nav a:hover {
+    color: white;
+    background-color: #03428e;
+}
+
+#search_form {
+    margin-left: 80px;
+}
+
+#search_form img {
+    position: relative;
+    top: 6px;
+}
+
+#search_form img:hover {
+    cursor: pointer;
+}
+
+#search_form input {
+    display: none;
+    color: rgb(98, 98, 98);
+    width: 200px;
+    padding: 0 8px;
+    height: 24px;
+    border: 2px solid rgb(217, 217, 217);
+    position: relative;
+    top: -2px;
+}
+
+#header_nav li:last-child label {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+#language_list {
+    color: rgb(98, 98, 98);
+    height: 25px;
+    border: 2px solid rgb(217, 217, 217);
+}
+
+/* </header-section> */
