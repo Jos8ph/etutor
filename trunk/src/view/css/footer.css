@@ -1,0 +1,57 @@
+footer {
+    margin: 0 auto;
+    width: 1024px;
+    height: 200px;
+    border-top: 1px solid #c5c5c5;
+}
+
+footer nav {
+    float: left;
+    margin: 0 100px 18px 0;
+}
+
+footer h5 {
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 3px;
+}
+
+footer a {
+    font-size: 14px;
+    color: #666;
+}
+
+#trademark-footer {
+    position: relative;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #c5c5c5;
+}
+
+#trademark-footer ul {
+    overflow: hidden;
+    margin: 15px 0 5px 0;
+}
+
+#trademark-footer li {
+    float: left;
+    margin-right: 15px;
+}
+
+#trademark-footer a {
+    font-size: 12px;
+}
+
+#trademark-footer h5 {
+    color: #999;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+#trademark-footer img {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}

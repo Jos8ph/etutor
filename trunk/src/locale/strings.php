@@ -1,5 +1,5 @@
 <?php
-require_once '../utilities/utilities.php';
+include_once '../utility/storage-func.php';
 startSession();
 
 /**
@@ -23,6 +23,9 @@ displayTextByLanguage();
  * Description: display text based on the language user is viewing
  */
 function displayTextByLanguage() {
+    if (isset($_SESSION['lang']) == false) {
+        $_SESSION['lang'] = 'vi';
+    }
     switch ($_SESSION['lang']) {
         case 'en':
             require 'strings_en.php';
