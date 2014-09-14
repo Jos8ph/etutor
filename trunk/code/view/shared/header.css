@@ -12,6 +12,7 @@ body {
     font-family: sans-serif;
     background-image: url('../../../assets/images/bg_body.png');
 }
+
 /* </Pre-define rules> */
 
 /* <header-section> */
@@ -133,6 +134,13 @@ header {
     color: rgb(98, 98, 98);
     height: 25px;
     border: 2px solid rgb(217, 217, 217);
+}
+
+main {
+    background-color: white;
+    padding-bottom: 60px;
+    width: 1024px;
+    margin: 30px auto 0 auto;
 }
 
 /* </header-section> */

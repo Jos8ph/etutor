@@ -6,3 +6,4 @@
  * Time: 5:18 AM
  */
 header('Location: ./code/view/index.php');
+?>
