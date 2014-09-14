@@ -15,3 +15,8 @@ define('NEWS', 'TIN TỨC');
 define('SEARCH_PLACEHOLDER', 'Nhập từ khóa...');
 define('SEARCH_BUTTON_TITLE', 'Tìm trong etutoringschool.com');
 define('LANGUAGE', 'Ngôn ngữ');
+define('LATEST_NEWS', 'Tin mới nhất');
+define('MATH', 'Toán học');
+define('PHYSICS', 'Vật lý');
+define('CHEMISTRY', 'Hóa học');
+define('ENGLISH', 'Anh văn');

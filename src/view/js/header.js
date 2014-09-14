@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     $('#language_list').change(function() {
         $.get(
-            'http://localhost/code/strings/strings.php',
+            'http://localhost/src/locale/strings.php',
             {lang : $('#language_list').val()}
         ).done(function(response) {
             if (response == 'success') {

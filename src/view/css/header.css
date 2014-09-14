@@ -10,7 +10,7 @@ a {
 
 body {
     font-family: sans-serif;
-    background-image: url('../../../assets/images/bg_body.png');
+    background-image: url('../../../assets/img/bg_body.png');
 }
 
 /* </Pre-define rules> */
@@ -41,12 +41,14 @@ header {
 }
 
 #btn_login_signup {
+    background-color: rgb(5, 57, 94);
+    padding: 6px;
     float: left;
-    margin-right: 60px;
+    margin-right: 70px;
     position: relative;
-    top: 2px;
+    top: -3px;
     font-size: 14px;
-    color: #1570a6;
+    color: #f3f3f3;
 }
 
 #social_bar {
@@ -64,8 +66,6 @@ header {
     position: absolute;
     right: 140px;
     bottom: 70px;
-    font-size: 32px;
-    font-weight: bold;
     color: #fbfbfb;
 }
 
@@ -135,12 +135,4 @@ header {
     height: 25px;
     border: 2px solid rgb(217, 217, 217);
 }
-
-main {
-    background-color: white;
-    padding-bottom: 60px;
-    width: 1024px;
-    margin: 30px auto 0 auto;
-}
-
 /* </header-section> */

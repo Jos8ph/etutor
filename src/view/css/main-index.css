@@ -1,3 +1,20 @@
+#main {
+    overflow: hidden;
+    padding-bottom: 40px;
+    width: 1024px;
+    margin: 30px auto 0 auto;
+}
+
+#slider1_container {
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 350px;
+    overflow: hidden;
+}
+
 /* Bullet Navigator Skin Begin
 /* jssor slider bullet navigator skin 05 css */
 /*
@@ -8,7 +25,7 @@
 .jssorb05 .dn           (mousedown)
 */
 .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-    background: url('../../assets/images/b05.png') no-repeat;
+    background: url('../../../assets/img/b05.png') no-repeat;
     overflow: hidden;
     cursor: pointer;
 }
@@ -42,7 +59,7 @@
     position: absolute;
     cursor: pointer;
     display: block;
-    background: url('../../assets/images/a12.png') no-repeat;
+    background: url('../../../assets/img/a12.png') no-repeat;
     overflow: hidden;
 }
 
@@ -68,4 +85,51 @@
 
 .jssora12rdn {
     background-position: -315px -37px;
+}
+
+/* <Right sidebar styles> */
+#news {
+    width: 280px;
+    height: 350px;
+    float: right;
+    padding: 10px;
+    background-color: rgb(253, 253, 255);
+    border-bottom: 1px solid rgb(215, 237, 252);
+}
+
+#right-sidebar h3 {
+    padding-bottom: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(108, 178, 228);
+    margin: 0;
+    color: rgb(108, 178, 228);
+}
+/* </Right sidebar styles> */
+
+/* <unknown name> */
+#temp_name {
+    margin-top: 20px;
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    float: left;
+}
+
+#temp_name h4 {
+    background-color: rgb(241, 241, 236);
+    margin: 0;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 7px 0;
+    text-align: center;
+}
+
+#temp_name article {
+    margin: 20px 0 0 18px;
+    background-color: rgb(253, 253, 255);
+    border: 1px solid rgb(220, 220, 220);
+    width: 150px;
+    height: 230px;
+    float: left;
 }

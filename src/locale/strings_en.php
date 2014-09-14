@@ -15,3 +15,8 @@ define('NEWS', 'NEWS');
 define('SEARCH_PLACEHOLDER', 'Enter keywords...');
 define('SEARCH_BUTTON_TITLE', 'Search etutoringschool.com');
 define('LANGUAGE', 'Language');
+define('LATEST_NEWS', 'Latest News');
+define('MATH', 'Mathematics');
+define('PHYSICS', 'Physics');
+define('CHEMISTRY', 'Chemistry');
+define('ENGLISH', 'English');
