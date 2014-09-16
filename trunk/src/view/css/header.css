@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 body {
     font-family: sans-serif;
     background-image: url('../../../assets/img/bg_body.png');
@@ -25,7 +29,7 @@ header {
     border: 2px solid rgb(5, 57, 94);
 }
 
-#logo_header {
+#header_logo {
     position: relative;
     left: -30px;
     top: -35px;
@@ -34,7 +38,7 @@ header {
     border-radius: 5px;
 }
 
-#top_bar {
+#header_top_bar {
     position: relative;
     top: -27px;
     float: right;
@@ -42,7 +46,7 @@ header {
 
 #btn_login_signup {
     background-color: rgb(5, 57, 94);
-    padding: 6px;
+    padding: 6px 8px;
     float: left;
     margin-right: 70px;
     position: relative;
@@ -51,18 +55,17 @@ header {
     color: #f3f3f3;
 }
 
-#social_bar {
+#horizon_social_bar {
     margin: 0;
     float: left;
 }
 
-#social_bar li {
-    margin-right: 5px;
-    display: inline;
+#horizon_social_bar li {
+    margin-right: 10px;
+    float: left;
 }
 
 #telephone {
-    margin: 0;
     position: absolute;
     right: 140px;
     bottom: 70px;
@@ -77,24 +80,25 @@ header {
     float: left;
 }
 
-#header_nav li {
+#header_nav > ul > li {
     float: left;
 }
 
-#header_nav li:last-child {
+/* positioning language dropbox */
+#header_nav > ul > li:last-child {
     position: absolute;
     right: 6px;
     bottom: 7px;
 }
 
-#header_nav a {
+.header_nav_item {
     display: inline-block;
     padding: 11px 13px 10px 13px;
     font-size: 15px;
     color: #f1f1f1;
 }
 
-#header_nav a:hover {
+.header_nav_item:hover {
     color: white;
     background-color: #03428e;
 }
@@ -123,11 +127,37 @@ header {
     top: -2px;
 }
 
-#header_nav li:last-child label {
+/* Language label */
+#header_nav > ul li:last-child label {
     position: relative;
     top: 1px;
     font-size: 14px;
     color: #f1f1f1;
+}
+
+#header_nav_subject_list {
+    display: none;
+    border: 2px solid #03428e;
+    background-color: rgba(240, 247, 252, 0.9);
+    position: absolute;
+    z-index: 1;
+}
+
+#header_nav_subject_list a {
+    display: inline-block;
+    padding: 11px 0 11px 18px;
+    width: 120px;
+    font-size: 14px;
+    color: rgb(23, 96, 147);
+}
+
+#header_nav_subject_list a:hover {
+    background-color: #03428e;
+    color: white;
+}
+
+.subjects_dropping_down {
+
 }
 
 #language_list {
@@ -135,4 +165,5 @@ header {
     height: 25px;
     border: 2px solid rgb(217, 217, 217);
 }
+
 /* </header-section> */

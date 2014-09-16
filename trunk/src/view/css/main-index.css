@@ -87,26 +87,6 @@
     background-position: -315px -37px;
 }
 
-/* <Right sidebar styles> */
-#news {
-    width: 280px;
-    height: 350px;
-    float: right;
-    padding: 10px;
-    background-color: rgb(253, 253, 255);
-    border-bottom: 1px solid rgb(215, 237, 252);
-}
-
-#right-sidebar h3 {
-    padding-bottom: 2px;
-    font-size: 16px;
-    font-weight: normal;
-    border-bottom: 1px solid rgb(108, 178, 228);
-    margin: 0;
-    color: rgb(108, 178, 228);
-}
-/* </Right sidebar styles> */
-
 /* <unknown name> */
 #temp_name {
     margin-top: 20px;
@@ -118,7 +98,6 @@
 
 #temp_name h4 {
     background-color: rgb(241, 241, 236);
-    margin: 0;
     font-size: 15px;
     border-bottom: 1px solid rgb(220, 220, 220);
     padding: 7px 0;
