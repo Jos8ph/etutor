@@ -17,6 +17,7 @@ require_once '../locale/strings.php';
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main-index.css">
+    <link rel="stylesheet" href="css/right_sidebar.css">
     <link rel="stylesheet" href="css/footer.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/header.js"></script>
@@ -101,26 +102,7 @@ require_once '../locale/strings.php';
     <a style="display: none" href="http://www.jssor.com">jquery responsive slider</a>
 </div>
 
-    <aside id="right-sidebar">
-        <section id="news">
-            <h3><?php echo(LATEST_NEWS); ?></h3>
-        </section>
-    </aside>
-
-    <section id="temp_name">
-        <article>
-            <h4>Something 1</h4>
-        </article>
-        <article>
-            <h4>Something 2</h4>
-        </article>
-        <article>
-            <h4>Something 3</h4>
-        </article>
-        <article>
-            <h4>Something 4</h4>
-        </article>
-    </section>
+    <?php require_once 'right_sidebar.php'; ?>
 
 </div>
 

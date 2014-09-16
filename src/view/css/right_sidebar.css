@@ -1,0 +1,16 @@
+#news {
+    width: 280px;
+    height: 350px;
+    float: right;
+    padding: 10px;
+    background-color: rgb(253, 253, 255);
+    border-bottom: 1px solid rgb(215, 237, 252);
+}
+
+#right-sidebar h3 {
+    padding-bottom: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: 1px solid rgb(108, 178, 228);
+    color: rgb(108, 178, 228);
+}
