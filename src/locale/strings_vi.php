@@ -6,7 +6,23 @@
  * Time: 10:03 PM
  */
 define('HOMEPAGE_TITLE', 'Trang chủ của Trường Học Trực Tuyến');
-define('LOGIN_SIGNUP', 'Đăng Nhập | Đăng Ký');
+define('SIGNIN_SIGNUP', 'Đăng Nhập | Đăng Ký');
+define('SIGNIN', 'Đăng Nhập');
+define('SIGNUP', 'Đăng Ký');
+define('EMAIL', 'Email');
+define('PASSWORD', 'Mật Khẩu');
+define('KEEP_SIGNED_IN', 'Duy trì đăng nhập');
+define('FORGOT_PASSWORD', 'Quên mật khẩu?');
+define('FIRSTNAME', 'Tên');
+define('LASTNAME', 'Họ');
+define('RE_ENTER_PW', 'Nhập lại mật khẩu');
+define('YEAR', 'Năm');
+define('MONTH', 'Tháng');
+define('DAY', 'Ngày');
+define('GENDER', 'Giới tính');
+define('MALE', 'Nam');
+define('FEMALE', 'Nữ');
+define('OTHER', 'Khác');
 define('HOMEPAGE', 'TRANG CHỦ');
 define('ABOUT_US', 'GIỚI THIỆU');
 define('CONTACT_US', 'LIÊN HỆ');

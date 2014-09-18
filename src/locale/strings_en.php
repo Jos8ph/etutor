@@ -6,7 +6,23 @@
  * Time: 10:03 PM
  */
 define('HOMEPAGE_TITLE', 'E-Tutoring School Homepage');
-define('LOGIN_SIGNUP', 'Login | Sign Up');
+define('SIGNIN_SIGNUP', 'Sign In | Sign Up');
+define('SIGNIN', 'Sign In');
+define('SIGNUP', 'Sign Up');
+define('EMAIL', 'Email');
+define('PASSWORD', 'Password');
+define('KEEP_SIGNED_IN', 'Keep me signed in');
+define('FORGOT_PASSWORD', 'Forgot password?');
+define('FIRSTNAME', 'First name');
+define('LASTNAME', 'Last name');
+define('RE_ENTER_PW', 'Re-enter password');
+define('YEAR', 'Year');
+define('MONTH', 'Month');
+define('DAY', 'Day');
+define('GENDER', 'Gender');
+define('MALE', 'Male');
+define('FEMALE', 'Female');
+define('OTHER', 'Other');
 define('HOMEPAGE', 'HOME');
 define('ABOUT_US', 'ABOUT US');
 define('CONTACT_US', 'CONTACT');
