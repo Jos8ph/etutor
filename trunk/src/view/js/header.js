@@ -10,8 +10,42 @@ $(document).ready(function() {
         DROPPED_UP: 4
     };
 
+    var signin_signup_dropdown_status = DropdownStateEnum.DROPPED_UP;
+    $('#btn_signin_signup').click(function() {
+        if (signin_signup_dropdown_status == DropdownStateEnum.DROPPED_UP) {
+            $('#signin_signup_container').slideDown();
+            signin_signup_dropdown_status = DropdownStateEnum.DROPPED_DOWN;
+        } else {
+            $('#signin_signup_container').slideUp();
+            signin_signup_dropdown_status = DropdownStateEnum.DROPPED_UP;
+        }
+    });
+
+    $('#tab_signin').click(function() {
+        if ($(this).hasClass('active_tab') == false) {
+            ExchangeActiveState($(this), $('#tab_signup'));
+            $('#signin_container').show();
+            $('#signup_container').hide();
+        }
+    });
+
+    $('#tab_signup').click(function() {
+        if ($(this).hasClass('active_tab') == false) {
+            ExchangeActiveState($(this), $('#tab_signin'));
+            $('#signup_container').show();
+            $('#signin_container').hide();
+        }
+    });
+
+    function ExchangeActiveState($toActive, $toDisable) {
+        $toActive.removeClass('inactive_tab');
+        $toActive.addClass('active_tab');
+        $toDisable.addClass('inactive_tab');
+        $toDisable.removeClass('active_tab');
+    }
+
     $('#search_form').find('img').click(function() {
-        $('#search_txtbox').animate({width: 'toggle'});
+        $('#txtbox_search').animate({width: 'toggle'});
     });
 
     $('#language_list').change(function() {
