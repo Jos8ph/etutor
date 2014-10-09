@@ -1,7 +1,55 @@
+#right-sidebar {
+    float: right;
+    overflow: hidden;
+    width: 300px;
+}
+
+.btn_sign_up_box {
+    margin: 10px auto 0 auto;
+    text-align: center;
+    width: 130px;
+    padding: 12px 0;
+    background-color: #00acee;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 3px;
+    border: 1px solid #e9e9e9;
+}
+
+.btn_sign_up_box:hover {
+    cursor: pointer;
+}
+
+.sign_up_box {
+    display: none;
+    background-color: rgba(240, 247, 252, 0.9);
+    border: 1px solid #00acee;
+    padding: 8px 0 10px 20px;
+    margin: 0 auto;
+    position: relative;
+    top: -2px;
+}
+
+.sign_up_box td {
+    padding-top: 10px;
+}
+
+.sign_up_box .txtbox_name {
+    margin-right: 10px;
+    width: 100px;
+}
+
+.sign_up_box input[type="submit"] {
+    margin: 0 auto;
+    display: block;
+}
+
 #news {
+    float: right;
+    margin-top: 25px;
     width: 280px;
     height: 350px;
-    float: right;
     padding: 10px;
     background-color: rgb(253, 253, 255);
     border-bottom: 1px solid rgb(215, 237, 252);

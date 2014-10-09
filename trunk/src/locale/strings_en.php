@@ -6,9 +6,8 @@
  * Time: 10:03 PM
  */
 define('HOMEPAGE_TITLE', 'E-Tutoring School Homepage');
-define('SIGNIN_SIGNUP', 'Sign In | Sign Up');
-define('SIGNIN', 'Sign In');
-define('SIGNUP', 'Sign Up');
+define('SIGN_IN', 'Sign In');
+define('SIGN_UP', 'Sign Up');
 define('EMAIL', 'Email');
 define('PASSWORD', 'Password');
 define('KEEP_SIGNED_IN', 'Keep me signed in');
