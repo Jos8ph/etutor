@@ -6,9 +6,8 @@
  * Time: 10:03 PM
  */
 define('HOMEPAGE_TITLE', 'Trang chủ của Trường Học Trực Tuyến');
-define('SIGNIN_SIGNUP', 'Đăng Nhập | Đăng Ký');
-define('SIGNIN', 'Đăng Nhập');
-define('SIGNUP', 'Đăng Ký');
+define('SIGN_IN', 'Đăng Nhập');
+define('SIGN_UP', 'Đăng Ký');
 define('EMAIL', 'Email');
 define('PASSWORD', 'Mật Khẩu');
 define('KEEP_SIGNED_IN', 'Duy trì đăng nhập');

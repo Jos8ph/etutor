@@ -10,14 +10,25 @@ $(document).ready(function() {
         DROPPED_UP: 4
     };
 
-    var signin_signup_dropdown_status = DropdownStateEnum.DROPPED_UP;
-    $('#btn_signin_signup').click(function() {
-        if (signin_signup_dropdown_status == DropdownStateEnum.DROPPED_UP) {
-            $('#signin_signup_container').slideDown();
-            signin_signup_dropdown_status = DropdownStateEnum.DROPPED_DOWN;
+    var signin_dropdown_status = DropdownStateEnum.DROPPED_UP;
+    $('#btn_sign_in_box').click(function() {
+        if (signin_dropdown_status == DropdownStateEnum.DROPPED_UP) {
+            $('.sign_in_box').slideDown();
+            signin_dropdown_status = DropdownStateEnum.DROPPED_DOWN;
         } else {
-            $('#signin_signup_container').slideUp();
-            signin_signup_dropdown_status = DropdownStateEnum.DROPPED_UP;
+            $('.sign_in_box').slideUp();
+            signin_dropdown_status = DropdownStateEnum.DROPPED_UP;
+        }
+    });
+
+    var signup_dropdown_status = DropdownStateEnum.DROPPED_UP;
+    $('.btn_sign_up_box').click(function() {
+        if (signup_dropdown_status == DropdownStateEnum.DROPPED_UP) {
+            $('.sign_up_box').slideDown();
+            signup_dropdown_status = DropdownStateEnum.DROPPED_DOWN;
+        } else {
+            $('.sign_up_box').slideUp();
+            signup_dropdown_status = DropdownStateEnum.DROPPED_UP;
         }
     });
 

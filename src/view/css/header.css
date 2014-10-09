@@ -18,6 +18,13 @@ body {
     background-image: url('../../../assets/img/bg_body.png');
 }
 
+ input[type="text"] {
+     padding: 0 8px;
+     height: 24px;
+     width: 180px;
+     border: 2px solid rgb(217, 217, 217);
+ }
+
  .padding_bottom_5px {
      padding-bottom: 5px;
  }
@@ -49,111 +56,53 @@ header {
     float: right;
 }
 
-/* <signin-signup-section> */
-#btn_signin_signup {
+/* <signin-section> */
+#btn_sign_in_box {
     background-color: rgb(5, 57, 94);
-    padding: 6px 8px;
+    padding: 7px 0;
+    text-align: center;
+    width: 90px;
     float: left;
-    margin-right: 70px;
+    margin-right: 90px;
     position: relative;
     top: -3px;
     font-size: 14px;
     color: #f3f3f3;
 }
 
-#signin_signup_container {
+#btn_sign_in_box:hover {
+    cursor: pointer;
+}
+
+.sign_in_box {
     display: none;
-    width: 280px;
+    width: 240px;
     z-index: 1;
-    padding: 0 20px 10px 20px;
+    padding: 8px 15px 5px 15px;
     position: absolute;
     top: 25px;
-    left: -86px;
+    left: -96px;
     border: 2px solid rgb(5, 57, 94);
     background-color: rgba(240, 247, 252, 0.9);
 }
 
-#signin_container, #signup_container {
-    border-top: 1px solid orange;
-}
-
-#signin_signup_container table {
+.sign_in_box table {
     margin: 10px auto 0 auto;
 }
 
-#signin_signup_container ul {
-    overflow: hidden;
-    margin: 20px auto 0 auto;
-    width: 185px;
-}
-
-#signin_signup_container li {
-    float: left;
-    padding: 5px 8px 6px 8px;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.active_tab {
-    border: 1px solid orange;
-    border-bottom: none;
-}
-
-.inactive_tab{
-    border: 1px solid gray;
-    border-bottom: none;
-    color: gray;
-}
-
-#signin_signup_container li:first-child {
-    margin-right: 20px;
-}
-
-#signin_signup_container input[type="text"] {
-    padding: 0 8px;
-    height: 20px;
-    border: 2px solid rgb(217, 217, 217);
-}
-
-/* <signin-container> */
-
-#signin_container input[type="text"] {
-    width: 180px;
-}
-
-#signin_container input[type="checkbox"] {
+.sign_in_box input[type="checkbox"] {
     position: relative;
     top: 3px;
 }
 
-#signin_container label {
+.sign_in_box label {
     font-size: 12px;
 }
 
-#signin_container tr:last-child td {
+.sign_in_box tr:last-child td {
     text-align: right;
     font-size: 13px;
 }
- /* </signin-container> */
-
- /* <signup-container> */
- #signup_container {
-     display: none;
- }
-
- #signup_container td {
-    padding-bottom: 10px;
- }
-
- .txtbox_name {
-     margin-right: 10px;
-     width: 100px;
- }
-
-
- /* </signup-container> */
-
-/* </signin-signup-section> */
 
 #horizon_social_bar {
     margin: 0;

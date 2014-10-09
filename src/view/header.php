@@ -1,13 +1,9 @@
 <header>
     <img id="header_logo" src="../../assets/img/header_logo.png">
     <nav id="header_top_bar">
-        <a id="btn_signin_signup" href="#"><?php echo(SIGNIN_SIGNUP); ?></a>
-        <section id="signin_signup_container">
-            <ul>
-                <li id="tab_signin" class="active_tab"><?php echo(SIGNIN); ?></li>
-                <li id="tab_signup" class="inactive_tab"><?php echo(SIGNUP); ?></li>
-            </ul>
-            <div id="signin_container">
+        <a id="btn_sign_in_box"><?php echo(SIGN_IN); ?></a>
+        <section class="sign_in_box">
+            <div>
                 <form>
                     <table>
                         <tr>
@@ -18,7 +14,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input id="btn_signin_submit" type="submit" value="<?php echo(SIGNIN); ?>" >
+                                <input id="btn_signin_submit" type="submit" value="<?php echo(SIGN_IN); ?>" >
                                 <input type="checkbox" id="chkbox_keep_signed_in">
                                 <label for="chkbox_keep_signed_in"><?php echo(KEEP_SIGNED_IN); ?></label>
                             </td>
@@ -29,61 +25,8 @@
                     </table>
                 </form>
             </div>
-
-            <div id="signup_container">
-                <form>
-                    <table>
-                        <tr>
-                            <td>
-                                <input class="txtbox_name" type="text" placeholder="<?php echo(FIRSTNAME); ?>">
-                                <input class="txtbox_name" type="text" placeholder="<?php echo(LASTNAME); ?>">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" placeholder="<?php echo(EMAIL); ?>"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" placeholder="<?php echo(PASSWORD); ?>"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" placeholder="<?php echo(RE_ENTER_PW); ?>"></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label>
-                                    <select>
-                                        <option><?php echo(YEAR); ?></option>
-                                    </select>
-                                </label>
-                                <label>
-                                    <select>
-                                        <option><?php echo(MONTH); ?></option>
-                                    </select>
-                                </label>
-                                <label>
-                                    <select>
-                                        <option><?php echo(DAY); ?></option>
-                                    </select>
-                                </label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="drpbox_gender"><?php echo(GENDER); ?></label>
-                                <select id="drpbox_gender">
-                                    <option><?php echo(MALE); ?></option>
-                                    <option><?php echo(FEMALE); ?></option>
-                                    <option><?php echo(OTHER); ?></option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><input type="submit" value="<?php echo(SIGNUP); ?>"</td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
         </section>
+
         <ul id="horizon_social_bar">
             <li>
                 <a href="#">
@@ -112,7 +55,9 @@
             </li>
         </ul>
     </nav>
-    <!--    <h1 id="telephone">Tel: +84 900 000 000</h1>-->
+
+    <h1 id="telephone">Tel: +84 900 000 000</h1>
+
     <nav id="header_nav">
         <ul>
             <li>
