@@ -61,7 +61,7 @@ $(document).ready(function() {
 
     $('#language_list').change(function() {
         $.get(
-            '../../src/locale/strings.php',
+            '../../src/locale/string.php',
             {lang : $('#language_list').val()}
         ).done(function(response) {
             if (response == 'success') {

@@ -5,10 +5,9 @@
  * Date: 9/12/14
  * Time: 10:04 PM
  */
-include_once '../constants.php';
-include_once '../utility/storage-func.php';
+include_once '../util/func_storage.php';
 startSession();
-require_once '../locale/strings.php';
+require_once '../locale/string.php';
 
 ?>
 <!DOCTYPE html>
@@ -31,11 +30,11 @@ require_once '../locale/strings.php';
 <body>
 
 <!-- Insert header part -->
-<?php require_once 'header.php'; ?>
+<?php require_once './inc/header.php'; ?>
 
 <div id="main">
 
-    <?php require_once 'right_sidebar.php'; ?>
+    <?php require_once './inc/right_sidebar.php'; ?>
 
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->
@@ -46,7 +45,7 @@ require_once '../locale/strings.php';
             <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
                 background-color: #000000; top: 0; left: 0;width: 100%;height:100%;">
             </div>
-            <div style="position: absolute; display: block; background: url(../../assets/img/loading.gif) no-repeat center center;
+            <div style="position: absolute; display: block; background: url(../../asset/img/loading.gif) no-repeat center center;
                 top: 0; left: 0;width: 100%;height:100%;">
             </div>
         </div>
@@ -54,34 +53,34 @@ require_once '../locale/strings.php';
         <!-- Slides Container -->
         <div data-u="slides" style="cursor: move; position: absolute; left: 0; top: 0; width: 700px; height: 350px; overflow: hidden;">
             <div>
-                <img data-u="image" src="../../assets/img/02.jpg" />
+                <img data-u="image" src="../../asset/img/02.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/03.jpg" />
+                <img data-u="image" src="../../asset/img/03.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/04.jpg" />
+                <img data-u="image" src="../../asset/img/04.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/05.jpg" />
+                <img data-u="image" src="../../asset/img/05.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/06.jpg" />
+                <img data-u="image" src="../../asset/img/06.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/07.jpg" />
+                <img data-u="image" src="../../asset/img/07.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/08.jpg" />
+                <img data-u="image" src="../../asset/img/08.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/09.jpg" />
+                <img data-u="image" src="../../asset/img/09.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/10.jpg" />
+                <img data-u="image" src="../../asset/img/10.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../assets/img/11.jpg" />
+                <img data-u="image" src="../../asset/img/11.jpg" />
             </div>
         </div>
 
@@ -122,7 +121,7 @@ require_once '../locale/strings.php';
 
 </div>
 
-<?php require_once 'footer.php'; ?>
+<?php require_once './inc/footer.php'; ?>
 
 </body>
 </html>

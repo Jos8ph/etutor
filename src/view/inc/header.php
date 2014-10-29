@@ -1,5 +1,5 @@
 <header>
-    <img id="header_logo" src="../../assets/img/header_logo.png">
+    <img id="header_logo" src="../../../asset/img/header_logo.png">
     <nav id="header_top_bar">
         <a id="btn_sign_in_box"><?php echo(SIGN_IN); ?></a>
         <section class="sign_in_box">
@@ -30,27 +30,27 @@
         <ul id="horizon_social_bar">
             <li>
                 <a href="#">
-                    <img title="Facebook" src="../../assets/img/fb_icon.png">
+                    <img title="Facebook" src="../../../asset/img/fb_icon.png">
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img title="Twitter" src="../../assets/img/twitter_icon.png">
+                    <img title="Twitter" src="../../../asset/img/twitter_icon.png">
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img title="Google+" src="../../assets/img/google_plus_icon.png">
+                    <img title="Google+" src="../../../asset/img/google_plus_icon.png">
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img title="Youtube" src="../../assets/img/youtube_icon.png">
+                    <img title="Youtube" src="../../../asset/img/youtube_icon.png">
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img title="RSS" src="../../assets/img/rss_icon.png">
+                    <img title="RSS" src="../../../asset/img/rss_icon.png">
                 </a>
             </li>
         </ul>
@@ -61,10 +61,10 @@
     <nav id="header_nav">
         <ul>
             <li>
-                <a class="header_nav_item" href="#"><?php echo(HOMEPAGE) ?></a>
+                <a class="header_nav_item" href="index.php"><?php echo(HOMEPAGE) ?></a>
             </li>
             <li>
-                <a class="header_nav_item" href="#"><?php echo(ABOUT_US) ?></a>
+                <a class="header_nav_item" href="about.php"><?php echo(ABOUT_US) ?></a>
             </li>
             <li>
                 <div id="subjects_dropdown_container">
@@ -86,7 +86,7 @@
             <li>
                 <form id="search_form">
                     <label for="txtbox_search">
-                        <img title="<?php echo(SEARCH_BUTTON_TITLE); ?>" src="../../assets/img/search_icon.png">
+                        <img title="<?php echo(SEARCH_BUTTON_TITLE); ?>" src="../../../asset/img/search_icon.png">
                     </label>
                     <input id="txtbox_search" placeholder="<?php echo(SEARCH_PLACEHOLDER); ?>" type="text">
                 </form>

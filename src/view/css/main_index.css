@@ -25,7 +25,7 @@
 .jssorb05 .dn           (mousedown)
 */
 .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-    background: url('../../../assets/img/b05.png') no-repeat;
+    background: url('../../../asset/img/b05.png') no-repeat;
     overflow: hidden;
     cursor: pointer;
 }
@@ -59,7 +59,7 @@
     position: absolute;
     cursor: pointer;
     display: block;
-    background: url('../../../assets/img/a12.png') no-repeat;
+    background: url('../../../asset/img/a12.png') no-repeat;
     overflow: hidden;
 }
 
