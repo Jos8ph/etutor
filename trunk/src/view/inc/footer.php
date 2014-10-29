@@ -34,6 +34,6 @@
             <li><a href="#"><?php echo CONTACT_US; ?></a></li>
         </ul>
         <h5>Copyright © 2014 Jos8ph. All rights reserved.</h5>
-        <img src="../../assets/img/logo_footer.png">
+        <img src="../../../asset/img/logo_footer.png">
     </section>
 </footer>

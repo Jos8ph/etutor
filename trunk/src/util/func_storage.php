@@ -12,7 +12,8 @@
  * Time: 5:20 PM
  * Description: check and start session if it has been not yet created
  */
-function startSession() {
+function startSession()
+{
     if (session_status() == PHP_SESSION_NONE)
         session_start();
 }

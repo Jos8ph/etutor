@@ -1,5 +1,5 @@
 <?php
-include_once '../utility/storage-func.php';
+include_once '../util/func_storage.php';
 startSession();
 
 /**
@@ -28,9 +28,9 @@ function displayTextByLanguage() {
     }
     switch ($_SESSION['lang']) {
         case 'en':
-            require 'strings_en.php';
+            require 'string_en.php';
             break;
         default:
-            require 'strings_vi.php';
+            require 'string_vi.php';
     }
 }
