@@ -33,6 +33,8 @@ require_once '../locale/string.php';
 
     <?php require_once './inc/right_sidebar.php'; ?>
 
+    <section id="about_us_content"></section>
+
 </div>
 
 <?php require_once './inc/footer.php'; ?>

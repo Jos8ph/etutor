@@ -69,7 +69,7 @@ header {
     float: left;
     margin-right: 90px;
     position: relative;
-    top: -3px;
+    top: -5px;
     font-size: 14px;
     color: #f3f3f3;
 }
@@ -130,7 +130,6 @@ header {
     left: 0;
     bottom: 0;
     width: 100%;
-    float: left;
 }
 
 #header_nav > ul > li {
@@ -138,7 +137,7 @@ header {
 }
 
 /* positioning language dropbox */
-#header_nav > ul > li:last-child {
+ #languages_switch_box {
     position: absolute;
     right: 6px;
     bottom: 7px;
@@ -149,28 +148,46 @@ header {
     padding: 11px 13px 10px 13px;
     font-size: 15px;
     color: #f1f1f1;
+    white-space: nowrap;
 }
 
 .header_nav_item:hover {
-    color: white;
-    font-weight: bold;
-    /*background-color: #03428e;*/
+    text-shadow: 0 0 3px white;
 }
 
-#search_form {
-    margin-left: 80px;
+ #header_nav_subject_list {
+     display: none;
+     border: 2px solid #03428e;
+     background-color: rgba(240, 247, 252, 0.9);
+     position: absolute;
+     z-index: 1;
+ }
+
+ #header_nav_subject_list a {
+     display: inline-block;
+     padding: 11px 0 11px 18px;
+     width: 120px;
+     font-size: 14px;
+     color: rgb(23, 96, 147);
+ }
+
+ #header_nav_subject_list a:hover {
+     background-color: #03428e;
+     color: white;
+ }
+
+#search_box {
+    position: absolute;
+    left: 580px;
+    bottom: 7px;
+    height: 24px;
 }
 
-#search_form img {
-    position: relative;
-    top: 6px;
-}
-
-#search_form img:hover {
+#search_box img:hover {
     cursor: pointer;
 }
 
-#search_form input {
+#search_box input {
     display: none;
     color: rgb(98, 98, 98);
     width: 200px;
@@ -178,42 +195,22 @@ header {
     height: 24px;
     border: 2px solid rgb(217, 217, 217);
     position: relative;
-    top: -2px;
+    top: -9px;
 }
 
 /* Language label */
-#header_nav > ul li:last-child label {
+ #languages_switch_box label {
     position: relative;
     top: 1px;
+    right: 2px;
     font-size: 14px;
     color: #f1f1f1;
 }
 
-#header_nav_subject_list {
-    display: none;
-    border: 2px solid #03428e;
-    background-color: rgba(240, 247, 252, 0.9);
-    position: absolute;
-    z-index: 1;
-}
-
-#header_nav_subject_list a {
-    display: inline-block;
-    padding: 11px 0 11px 18px;
-    width: 120px;
-    font-size: 14px;
-    color: rgb(23, 96, 147);
-}
-
-#header_nav_subject_list a:hover {
-    background-color: #03428e;
-    color: white;
-}
-
-#language_list {
-    color: rgb(98, 98, 98);
-    height: 25px;
-    border: 2px solid rgb(217, 217, 217);
-}
+ #language_list {
+     color: rgb(98, 98, 98);
+     height: 25px;
+     border: 2px solid rgb(217, 217, 217);
+ }
 
 /* </header-section> 
