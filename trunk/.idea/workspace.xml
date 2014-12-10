@@ -2,59 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="2908b870-4410-48eb-a15a-4ea7b2c80b3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/const" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/about.php" />
-      <change type="DELETED" beforePath="C:\Users\Dai\Desktop\etutor\src\util\storage-func.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dai\Desktop\etutor\src\utility\storage-func.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\src\constants.php" afterPath="$PROJECT_DIR$/src/const/const_path.php" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\src\locale\strings.php" afterPath="$PROJECT_DIR$/src/locale/string.php" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\src\locale\strings_en.php" afterPath="$PROJECT_DIR$/src/locale/string_en.php" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\src\locale\strings_vi.php" afterPath="$PROJECT_DIR$/src/locale/string_vi.php" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\src\view\footer.php" afterPath="$PROJECT_DIR$/src/view/inc/footer.php" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\src\view\header.php" afterPath="$PROJECT_DIR$/src/view/inc/header.php" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\src\view\right_sidebar.php" afterPath="$PROJECT_DIR$/src/view/inc/right_sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/about.php" afterPath="$PROJECT_DIR$/src/view/about.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/css/header.css" afterPath="$PROJECT_DIR$/src/view/css/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/js/header.js" afterPath="$PROJECT_DIR$/src/view/js/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/index.php" afterPath="$PROJECT_DIR$/src/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/css/main_index.css" afterPath="$PROJECT_DIR$/src/view/css/main_index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/inc/header.php" afterPath="$PROJECT_DIR$/src/view/inc/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\01.jpg" afterPath="$PROJECT_DIR$/asset/img/01.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\02.jpg" afterPath="$PROJECT_DIR$/asset/img/02.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\03.jpg" afterPath="$PROJECT_DIR$/asset/img/03.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\04.jpg" afterPath="$PROJECT_DIR$/asset/img/04.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\05.jpg" afterPath="$PROJECT_DIR$/asset/img/05.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\06.jpg" afterPath="$PROJECT_DIR$/asset/img/06.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\07.jpg" afterPath="$PROJECT_DIR$/asset/img/07.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\08.jpg" afterPath="$PROJECT_DIR$/asset/img/08.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\09.jpg" afterPath="$PROJECT_DIR$/asset/img/09.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\10.jpg" afterPath="$PROJECT_DIR$/asset/img/10.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\11.jpg" afterPath="$PROJECT_DIR$/asset/img/11.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\Thumbs.db" afterPath="$PROJECT_DIR$/asset/img/Thumbs.db" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large\Thumbs.db" afterPath="$PROJECT_DIR$/asset/img/large/Thumbs.db" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\a12.png" afterPath="$PROJECT_DIR$/asset/img/a12.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets" afterPath="$PROJECT_DIR$/asset" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\b05.png" afterPath="$PROJECT_DIR$/asset/img/b05.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\bg_body.png" afterPath="$PROJECT_DIR$/asset/img/bg_body.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\fb_icon.png" afterPath="$PROJECT_DIR$/asset/img/fb_icon.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large\fb_logo.png" afterPath="$PROJECT_DIR$/asset/img/large/fb_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\google_plus_icon.png" afterPath="$PROJECT_DIR$/asset/img/google_plus_icon.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large\google_plus_logo.png" afterPath="$PROJECT_DIR$/asset/img/large/google_plus_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\header_logo.png" afterPath="$PROJECT_DIR$/asset/img/header_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img" afterPath="$PROJECT_DIR$/asset/img" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large" afterPath="$PROJECT_DIR$/asset/img/large" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\loading.gif" afterPath="$PROJECT_DIR$/asset/img/loading.gif" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large\logo.png" afterPath="$PROJECT_DIR$/asset/img/large/logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\logo_footer.png" afterPath="$PROJECT_DIR$/asset/img/logo_footer.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large\logo_icon.png" afterPath="$PROJECT_DIR$/asset/img/large/logo_icon.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\rss_icon.png" afterPath="$PROJECT_DIR$/asset/img/rss_icon.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large\rss_logo.png" afterPath="$PROJECT_DIR$/asset/img/large/rss_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\search_icon.png" afterPath="$PROJECT_DIR$/asset/img/search_icon.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\twitter_icon.png" afterPath="$PROJECT_DIR$/asset/img/twitter_icon.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large\twitter_logo.png" afterPath="$PROJECT_DIR$/asset/img/large/twitter_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\src\utility" afterPath="$PROJECT_DIR$/src/util" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\youtube_icon.png" afterPath="$PROJECT_DIR$/asset/img/youtube_icon.png" />
-      <change type="MOVED" beforePath="C:\Users\Dai\Desktop\etutor\assets\img\large\youtube_logo.png" afterPath="$PROJECT_DIR$/asset/img/large/youtube_logo.png" />
     </list>
     <ignored path="etutor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,18 +34,48 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/inc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="935" max-vertical-offset="1921">
-              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+            <state vertical-scroll-proportion="-54.923077" vertical-offset="0" max-vertical-offset="1853">
+              <caret line="84" column="45" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/css/header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27540502" vertical-offset="1020" max-vertical-offset="3757">
+              <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/js/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.142857" vertical-offset="0" max-vertical-offset="1615">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6497623" vertical-offset="117" max-vertical-offset="782">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state vertical-scroll-proportion="-9.423077" vertical-offset="163" max-vertical-offset="816">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right_sidebar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/inc/right_sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="85" max-vertical-offset="1156">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -102,8 +84,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-68.0" vertical-offset="255" max-vertical-offset="2210">
+            <state vertical-scroll-proportion="-59.115383" vertical-offset="486" max-vertical-offset="2210">
               <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="126" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/css/main_index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1344" max-vertical-offset="2023">
+              <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -151,14 +143,14 @@
         <option value="$PROJECT_DIR$/src/view/css/main_index.css" />
         <option value="$PROJECT_DIR$/src/view/css/right_sidebar.css" />
         <option value="$PROJECT_DIR$/src/view/header.php" />
-        <option value="$PROJECT_DIR$/src/view/css/header.css" />
         <option value="$PROJECT_DIR$/src/utility/storage_func.php" />
         <option value="$PROJECT_DIR$/src/constants.php" />
-        <option value="$PROJECT_DIR$/src/view/js/header.js" />
         <option value="$PROJECT_DIR$/src/view/index.php" />
         <option value="$PROJECT_DIR$/src/locale/string.php" />
-        <option value="$PROJECT_DIR$/src/view/inc/header.php" />
         <option value="$PROJECT_DIR$/src/view/about.php" />
+        <option value="$PROJECT_DIR$/src/view/js/header.js" />
+        <option value="$PROJECT_DIR$/src/view/inc/header.php" />
+        <option value="$PROJECT_DIR$/src/view/css/header.css" />
       </list>
     </option>
   </component>
@@ -428,15 +420,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="false" name="XAMPP" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" editBeforeRun="true" server_name="Debug PHP &amp; JS" start_url="/src/view/index.php">
@@ -509,30 +501,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="816" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="816" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.30029154" sideWeight="0.5" order="4" side_tool="true" content_ui="combo" />
       <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24140625" sideWeight="0.5" order="6" side_tool="true" content_ui="combo" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19255663" sideWeight="0.4992928" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4513399" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19579288" sideWeight="0.4992928" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.20193861" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3171701" sideWeight="0.5007072" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4513399" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -552,9 +544,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24140625" sideWeight="0.5" order="6" side_tool="true" content_ui="combo" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -580,13 +572,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/css/main_index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2380">
-          <caret line="5" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/inc/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="748">
@@ -873,17 +858,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/inc/right_sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6355283" vertical-offset="588" max-vertical-offset="1241">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/css/right_sidebar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/js/main_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/func_storage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="408">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/const/const_path.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/string.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.076923" vertical-offset="21" max-vertical-offset="697">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-59.115383" vertical-offset="486" max-vertical-offset="2210">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="126" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -896,76 +910,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/js/main_index.js">
+    <entry file="file://$PROJECT_DIR$/src/view/inc/right_sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3808">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/func_storage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="408">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/const/const_path.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/js/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1615">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/string.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.076923" vertical-offset="21" max-vertical-offset="697">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-68.0" vertical-offset="255" max-vertical-offset="2210">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="126" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/inc/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="935" max-vertical-offset="1921">
-          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1156">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6497623" vertical-offset="117" max-vertical-offset="782">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state vertical-scroll-proportion="-9.423077" vertical-offset="163" max-vertical-offset="816">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50810015" vertical-offset="3463" max-vertical-offset="4250">
+          <caret line="224" column="9" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.142857" vertical-offset="0" max-vertical-offset="1615">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-54.923077" vertical-offset="0" max-vertical-offset="1853">
+          <caret line="84" column="45" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27540502" vertical-offset="1020" max-vertical-offset="3757">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
           <folding />
         </state>
       </provider>
