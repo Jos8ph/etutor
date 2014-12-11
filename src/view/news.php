@@ -31,10 +31,12 @@ require_once '../locale/string.php';
     <?php require_once './inc/right_sidebar.php'; ?>
 
     <section id="news_section">
-    	<article>
-    		<img src="" />
+    	<article class="news_article">
+    		<img src="../../asset/img/article_img.jpg" />
     		<h4>This is title</h4>
-    		<h5>Posted by <span class="article_author"></span>, at <span class="article_date">12-11-2014 13:32</span></h5>
+    		<h5>
+            Posted by <a href="#" class="article_author">Jos8ph</a>, on <span>12-11-2014 13:32</span>
+            </h5>
     		<p>This is contents</p>
     	</article>
     </section>
