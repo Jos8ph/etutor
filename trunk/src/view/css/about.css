@@ -1,0 +1,10 @@
+@import url("header.css");
+@import url("right_sidebar.css");
+@import url("footer.css");
+
+#about_us_section {
+    background-color: white;
+    width: 700px;
+    height: 600px;
+    float: left;
+}

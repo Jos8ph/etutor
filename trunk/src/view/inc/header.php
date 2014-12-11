@@ -14,7 +14,7 @@
                     <tr>
                         <td>
                             <input id="btn_signin_submit" type="submit" value="<?php echo(SIGN_IN); ?>" >
-                            <input type="checkbox" id="chkbox_keep_signed_in">
+                            <input type="checkbox" />
                             <label for="chkbox_keep_signed_in"><?php echo(KEEP_SIGNED_IN); ?></label>
                         </td>
                     </tr>
@@ -74,7 +74,7 @@
                 </ul>
             </li>
             <li>
-                <a class="header_nav_item" href="#"><?php echo(NEWS); ?></a>
+                <a class="header_nav_item" href="news.php"><?php echo(NEWS); ?></a>
             </li>
             <li>
                 <a class="header_nav_item" href="#"><?php echo(CONTACT_US); ?></a>
