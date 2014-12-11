@@ -3,8 +3,45 @@
 @import url("footer.css");
 
 #news_section {
-    background-color: white;
-    width: 700px;
+    width: 690px;
     height: 600px;
     float: left;
+}
+
+.news_article {
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	padding: 10px 0 0 10px;
+}
+
+.news_article h4, h5, p, img {
+	float: left;
+}
+
+.news_article h4, h5 {
+	width: 410px;
+}
+
+.news_article h4, h5, p {
+	margin-left: 15px;
+}
+
+.news_article h4 {
+	padding-bottom: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(20, 20, 20);
+	border-bottom: 1px solid rgb(215, 237, 252);
+}
+
+.news_article h5 {
+	font-weight: normal;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.news_article a {
+	color: rgb(23,96,147);
+	font-weight: bold;
 }
