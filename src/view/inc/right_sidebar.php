@@ -62,7 +62,7 @@
         </form>
     </div>
 
-    <section id="news">
+    <section id="news_sidebar">
         <h3><?php echo(LATEST_NEWS); ?></h3>
     </section>
 </aside>

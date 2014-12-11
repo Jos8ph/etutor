@@ -1,9 +1,6 @@
-#main {
-    overflow: hidden;
-    padding-bottom: 40px;
-    width: 1024px;
-    margin: 30px auto 0 auto;
-}
+@import url("header.css");
+@import url("right_sidebar.css");
+@import url("footer.css");
 
 #slider1_container {
     position: relative;

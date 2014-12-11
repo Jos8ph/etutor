@@ -14,16 +14,13 @@ require_once '../locale/string.php';
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main_index.css">
-    <link rel="stylesheet" href="css/right_sidebar.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/jssor.core.js"></script>
     <script type="text/javascript" src="js/jssor.utils.js"></script>
     <script type="text/javascript" src="js/jssor.slider.min.js"></script>
-    <script type="text/javascript" src="js/main_index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <title><?php echo(HOMEPAGE_TITLE); ?></title>
 </head>
 
@@ -45,13 +42,15 @@ require_once '../locale/string.php';
             <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
                 background-color: #000000; top: 0; left: 0;width: 100%;height:100%;">
             </div>
-            <div style="position: absolute; display: block; background: url(../../asset/img/loading.gif) no-repeat center center;
+            <div style="position: absolute; display: block; 
+                background: url(../../asset/img/loading.gif) no-repeat center center;
                 top: 0; left: 0;width: 100%;height:100%;">
             </div>
         </div>
 
         <!-- Slides Container -->
-        <div data-u="slides" style="cursor: move; position: absolute; left: 0; top: 0; width: 700px; height: 350px; overflow: hidden;">
+        <div data-u="slides" style="cursor: move; position: absolute; left: 0; top: 0; 
+            width: 700px; height: 350px; overflow: hidden;">
             <div>
                 <img data-u="image" src="../../asset/img/02.jpg" />
             </div>
@@ -68,19 +67,7 @@ require_once '../locale/string.php';
                 <img data-u="image" src="../../asset/img/06.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../../asset/img/07.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="../../asset/img/08.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="../../asset/img/09.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="../../asset/img/10.jpg" />
-            </div>
-            <div>
-                <img data-u="image" src="../../asset/img/11.jpg" />
+                <img data-u="image" src="../../asset/img/01.jpg" />
             </div>
         </div>
 
@@ -94,13 +81,9 @@ require_once '../locale/string.php';
         <!-- Arrow Navigator Skin Begin -->
 
         <!-- Arrow Left -->
-        <span data-u="arrowleft" class="jssora12l" style="width: 30px; height: 46px; top: 150px; left: 0;">
-        </span>
+        <span data-u="arrowleft" class="jssora12l" style="width: 30px; height: 46px; top: 150px; left: 0;"></span>
         <!-- Arrow Right -->
-        <span data-u="arrowright" class="jssora12r" style="width: 30px; height: 46px; top: 150px; right: 0">
-        </span>
-        <!-- Arrow Navigator Skin End -->
-        <a style="display: none" href="http://www.jssor.com">jquery responsive slider</a>
+        <span data-u="arrowright" class="jssora12r" style="width: 30px; height: 46px; top: 150px; right: 0"></span>
 
     </div>
 

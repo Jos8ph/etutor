@@ -97,6 +97,7 @@ header {
 .sign_in_box input[type="checkbox"] {
     position: relative;
     top: 3px;
+    left: 8px
 }
 
 .sign_in_box label {
@@ -213,4 +214,11 @@ header {
      border: 2px solid rgb(217, 217, 217);
  }
 
-/* </header-section> 
+/* </header-section> */
+
+#main {
+    overflow: hidden;
+    padding-bottom: 40px;
+    width: 1024px;
+    margin: 30px auto 0 auto;
+}
