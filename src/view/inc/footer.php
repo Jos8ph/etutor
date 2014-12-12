@@ -29,7 +29,7 @@
             <li><a href="index.php"><?php echo HOMEPAGE; ?></a></li>
             <li><a href="about.php"><?php echo ABOUT_US; ?></a></li>
             <li><a href="news.php"><?php echo NEWS; ?></a></li>
-            <li><a href="#"><?php echo CONTACT_US; ?></a></li>
+            <li><a href="contact.php"><?php echo CONTACT_US; ?></a></li>
         </ul>
         <h5>Copyright © 2014 Jos8ph. All rights reserved.</h5>
         <img src="../../../asset/img/logo_footer.png">
