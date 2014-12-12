@@ -17,9 +17,7 @@ require_once '../locale/string.php';
     <link rel="stylesheet" href="css/index.css">
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
-    <script type="text/javascript" src="js/jssor.core.js"></script>
-    <script type="text/javascript" src="js/jssor.utils.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <title><?php echo(HOMEPAGE_TITLE); ?></title>
 </head>

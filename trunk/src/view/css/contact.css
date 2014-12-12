@@ -1,0 +1,9 @@
+@import url("header.css");
+@import url("right_sidebar.css");
+@import url("footer.css");
+
+#contact_us_section {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+}

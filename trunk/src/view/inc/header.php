@@ -77,7 +77,7 @@
                 <a class="header_nav_item" href="news.php"><?php echo(NEWS); ?></a>
             </li>
             <li>
-                <a class="header_nav_item" href="#"><?php echo(CONTACT_US); ?></a>
+                <a class="header_nav_item" href="contact.php"><?php echo(CONTACT_US); ?></a>
             </li>
         </ul>
             <div id="search_box">
