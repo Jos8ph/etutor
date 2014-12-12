@@ -4,6 +4,28 @@
 
 #contact_us_section {
     background-color: white;
-    width: 500px;
-    height: 400px;
+    overflow: auto;
+    padding: 18px;
+    width: 530px;
+    margin: auto;
+    border-radius: 4px;
+    border: 1px solid #e3e3e3;
+}
+
+#contact_us_section td {
+	padding-bottom: 10px;
+}
+
+#contact_us_phone {
+	width: 90px;
+	margin-left: 10px;
+}
+
+#contact_us_subject, #contact_us_content {
+	width: 500px;
+}
+
+#contact_us_content {
+	resize: none;
+	height: 250px;
 }
