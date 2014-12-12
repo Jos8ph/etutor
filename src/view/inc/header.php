@@ -80,25 +80,27 @@
                 <a class="header_nav_item" href="contact.php"><?php echo(CONTACT_US); ?></a>
             </li>
         </ul>
-            <div id="search_box">
-                <form>
-                    <label for="txtbox_search">
-                        <img title="<?php echo(SEARCH_BUTTON_TITLE); ?>" src="../../../asset/img/search_icon.png">
-                    </label>
-                    <input id="txtbox_search" placeholder="<?php echo(SEARCH_PLACEHOLDER); ?>" type="text">
-                </form>
-            </div>
-            <div id="languages_switch_box">
-                <label for="language_list"><?php echo(LANGUAGE); ?></label>
-                <select id="language_list" name="language">
-                    <?php if ($_SESSION['lang'] == 'vi') { ?>
-                        <option value="vi">Tiếng Việt</option>
-                        <option value="en">English</option>
-                    <?php } else { ?>
-                        <option value="en">English</option>
-                        <option value="vi">Tiếng Việt</option>
-                    <?php } ?>
-                </select>
-            </div>
+        
+        <div id="search_box">
+            <form>
+                <label for="txtbox_search">
+                    <img title="<?php echo(SEARCH_BUTTON_TITLE); ?>" src="../../../asset/img/search_icon.png">
+                </label>
+                <input id="txtbox_search" placeholder="<?php echo(SEARCH_PLACEHOLDER); ?>" type="text">
+            </form>
+        </div>
+
+        <div id="languages_switch_box">
+            <label for="language_list"><?php echo(LANGUAGE); ?></label>
+            <select id="language_list" name="language">
+                <?php if ($_SESSION['lang'] == 'vi') { ?>
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="en">English</option>
+                <?php } else { ?>
+                    <option value="en">English</option>
+                    <option value="vi">Tiếng Việt</option>
+                <?php } ?>
+            </select>
+        </div>
     </nav>
 </header>

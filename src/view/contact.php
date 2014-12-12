@@ -34,22 +34,22 @@ require_once '../locale/string.php';
     	<form method="POST">
 	    	<table>
 	    		<tr>
-	    			<td>Name</td>
-	    			<td><input type="text" /></td>
+	    			<td><input id="contact_us_name" placeholder="Your name" type="text" /></td>
 	    		</tr>
 	    		<tr>
-	    			<td>Email</td>
-	    			<td><input type="text" /></td>
-	    			<td>Phone</td>
-	    			<td><input type="text" /></td>
+	    			<td>
+		    			<input id="contact_us_email" placeholder="Your email" type="text" />
+		    			<input id="contact_us_phone" placeholder="Phone number" type="text" />
+	    			</td>
 	    		</tr>
 	    		<tr>
-	    			<td>Subject</td>
-	    			<td><input type="text" /></td>
+	    			<td><input id="contact_us_subject" type="text" placeholder="Add a subject" /></td>
 	    		</tr>
 	    		<tr>
-	    			<td>Content</td>
-	    			<td><textarea></textarea></td>
+	    			<td><textarea id="contact_us_content" placeholder="Write your message..."></textarea></td>
+	    		</tr>
+	    		<tr>
+	    			<td><input type="submit" value="Send" /></td>
 	    		</tr>
 	    	</table>
     	</form>
