@@ -1,0 +1,38 @@
+@import url("header.css");
+@import url("right_sidebar.css");
+@import url("footer.css");
+
+#subjects_section {
+    margin-top: 15px;
+    width: 680px;
+}
+
+#subjects_section article {
+    background-color: #fdfdfd;
+    border-radius: 4px;
+    border: 1px solid #e3e3e3;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+#subjects_section * {
+    float: left;
+}
+
+#subjects_section h2, p {
+    width: 485px;
+}
+
+#subjects_section img {
+    margin-right: 20px;
+    /*border: 1px dashed black;*/
+}
+
+#subjects_section h2 {
+    margin-top: 8px;
+}
+
+#subjects_section p {
+    margin-top: 5px;
+    line-height: 20px;
+}

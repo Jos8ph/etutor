@@ -184,7 +184,7 @@ header {
 
 #search_box {
     position: absolute;
-    left: 580px;
+    left: 600px;
     bottom: 7px;
     height: 24px;
 }
@@ -196,7 +196,7 @@ header {
 #search_box input {
     display: none;
     color: rgb(98, 98, 98);
-    width: 200px;
+    width: 180px;
     padding: 0 8px;
     height: 24px;
     border: 2px solid rgb(217, 217, 217);

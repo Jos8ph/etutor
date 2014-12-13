@@ -65,13 +65,16 @@
                 <a class="header_nav_item" href="about.php"><?php echo(ABOUT_US); ?></a>
             </li>
             <li>
-                <a class="header_nav_item" id="header_nav_subjects_item" href="#"><?php echo(SUBJECTS); ?></a>
+                <a class="header_nav_item" id="header_nav_subjects_item" href="subjects.php"><?php echo(SUBJECTS); ?></a>
                 <ul id="header_nav_subject_list">
                     <li><a href="#"><?php echo ENGLISH; ?></a></li>
-                    <li><a href="#"><?php echo MATH; ?></a></li>
+                    <li><a href="#"><?php echo MATHS; ?></a></li>
                     <li><a href="#"><?php echo PHYSICS; ?></a></li>
                     <li><a href="#"><?php echo CHEMISTRY; ?></a></li>
                 </ul>
+            </li>
+            <li>
+                <a class="header_nav_item" href="documents.php"><?php echo(DOCUMENTS); ?></a>
             </li>
             <li>
                 <a class="header_nav_item" href="news.php"><?php echo(NEWS); ?></a>

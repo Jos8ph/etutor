@@ -12,7 +12,7 @@
         <ul>
             <li><h5><?php echo SUBJECTS; ?></h5></li>
             <li><a href="#"><?php echo ENGLISH; ?></a></li>
-            <li><a href="#"><?php echo MATH; ?></a></li>
+            <li><a href="#"><?php echo MATHS; ?></a></li>
             <li><a href="#"><?php echo PHYSICS; ?></a></li>
             <li><a href="#"><?php echo CHEMISTRY; ?></a></li>
         </ul>
