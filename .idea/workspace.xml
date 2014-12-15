@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="2908b870-4410-48eb-a15a-4ea7b2c80b3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/img/chemistry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/img/english.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/img/maths.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asset/img/physics.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/css/subjects.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/subjects.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asset/img/Thumbs.db" afterPath="$PROJECT_DIR$/asset/img/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asset/img/large/Thumbs.db" afterPath="$PROJECT_DIR$/asset/img/large/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/css/about.css" afterPath="$PROJECT_DIR$/src/view/css/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/css/contact.css" afterPath="$PROJECT_DIR$/src/view/css/contact.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/inc/footer.php" afterPath="$PROJECT_DIR$/src/view/inc/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/css/header.css" afterPath="$PROJECT_DIR$/src/view/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/inc/header.php" afterPath="$PROJECT_DIR$/src/view/inc/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/css/news.css" afterPath="$PROJECT_DIR$/src/view/css/news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/string_en.php" afterPath="$PROJECT_DIR$/src/locale/string_en.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/string_vi.php" afterPath="$PROJECT_DIR$/src/locale/string_vi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/css/documents.css" afterPath="$PROJECT_DIR$/src/view/css/documents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/js/documents.js" afterPath="$PROJECT_DIR$/src/view/js/documents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/documents.php" afterPath="$PROJECT_DIR$/src/view/documents.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="etutor.iws" />
@@ -43,73 +30,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="subjects.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/css/subjects.css">
+      <file leaf-file-name="documents.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/documents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subjects.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/subjects.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3537519" vertical-offset="0" max-vertical-offset="1173">
-              <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+            <state vertical-scroll-proportion="-6.6538463" vertical-offset="1442" max-vertical-offset="2346">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
+                <element signature="n#li#0;n#ul#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="string_en.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/locale/string_en.php">
+      <file leaf-file-name="documents.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/js/documents.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.538462" vertical-offset="18" max-vertical-offset="731">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/css/about.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string_vi.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/locale/string_vi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.884615" vertical-offset="35" max-vertical-offset="731">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/inc/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="629">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/inc/header.php">
+      <file leaf-file-name="documents.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/css/documents.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.230769" vertical-offset="924" max-vertical-offset="1938">
-              <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.724595" vertical-offset="324" max-vertical-offset="1224">
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -123,59 +71,16 @@
     </FindUsagesManager>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/code/strings/strings_en.php" />
-        <option value="$PROJECT_DIR$/code/strings/strings_vi.php" />
-        <option value="$PROJECT_DIR$/code/view/styles/header.css" />
-        <option value="ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" />
-        <option value="$PROJECT_DIR$/code/utilities/utilities.php" />
-        <option value="$PROJECT_DIR$/code/view/scripts/header.js" />
-        <option value="$PROJECT_DIR$/code/view/shared/footer.php" />
-        <option value="$PROJECT_DIR$/code/view/index/main-index.css" />
-        <option value="$PROJECT_DIR$/code/view/index/index.php" />
-        <option value="$PROJECT_DIR$/code/view/shared/header.css" />
-        <option value="$PROJECT_DIR$/code/strings/strings.php" />
-        <option value="$PROJECT_DIR$/code/view/shared/header.php" />
-        <option value="$PROJECT_DIR$/code/view/main-index.js" />
-        <option value="$PROJECT_DIR$/code/view/main-index.css" />
-        <option value="$PROJECT_DIR$/code/view/shared/header.js" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/code/view/index.php" />
-        <option value="$PROJECT_DIR$/src/utility/constants.php" />
-        <option value="$PROJECT_DIR$/src/constants.js" />
-        <option value="$PROJECT_DIR$/src/view/shared/header.php" />
-        <option value="$PROJECT_DIR$/src/view/shared/header.js" />
-        <option value="$PROJECT_DIR$/src/locale/strings.php" />
-        <option value="$PROJECT_DIR$/src/view/js/main-index.js" />
-        <option value="$PROJECT_DIR$/src/view/footer.php" />
-        <option value="$PROJECT_DIR$/src/view/css/footer.css" />
-        <option value="$PROJECT_DIR$/src/view/css/main-index.css" />
-        <option value="$PROJECT_DIR$/src/locale/strings_en.php" />
-        <option value="$PROJECT_DIR$/src/locale/strings_vi.php" />
-        <option value="$PROJECT_DIR$/src/view/right_sidebar.php" />
-        <option value="$PROJECT_DIR$/src/view/css/main_index.css" />
-        <option value="$PROJECT_DIR$/src/view/css/right_sidebar.css" />
-        <option value="$PROJECT_DIR$/src/view/header.php" />
-        <option value="$PROJECT_DIR$/src/utility/storage_func.php" />
-        <option value="$PROJECT_DIR$/src/constants.php" />
-        <option value="$PROJECT_DIR$/src/view/index.php" />
-        <option value="$PROJECT_DIR$/src/locale/string.php" />
-        <option value="$PROJECT_DIR$/src/view/about.php" />
-        <option value="$PROJECT_DIR$/src/view/js/header.js" />
-        <option value="$PROJECT_DIR$/src/view/news.php" />
-        <option value="$PROJECT_DIR$/src/view/css/contact.css" />
-        <option value="$PROJECT_DIR$/src/view/css/about.css" />
-        <option value="$PROJECT_DIR$/src/view/css/news.css" />
-        <option value="$PROJECT_DIR$/src/view/css/header.css" />
-        <option value="$PROJECT_DIR$/src/locale/string_en.php" />
-        <option value="$PROJECT_DIR$/src/locale/string_vi.php" />
-        <option value="$PROJECT_DIR$/src/view/inc/footer.php" />
-        <option value="$PROJECT_DIR$/src/view/inc/header.php" />
-        <option value="$PROJECT_DIR$/src/view/css/subjects.css" />
-        <option value="$PROJECT_DIR$/src/view/subjects.php" />
+        <option value="$PROJECT_DIR$/src/view/documents.php" />
+        <option value="$PROJECT_DIR$/src/view/js/documents.js" />
+        <option value="$PROJECT_DIR$/src/view/css/documents.css" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpServers">
     <servers>
@@ -221,6 +126,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -393,7 +299,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,7 +352,7 @@
       <node-options />
       <gulpfile />
       <tasks />
-      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
@@ -524,7 +429,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="816" extended-state="1" />
+    <frame x="-8" y="-8" width="1296" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.30029154" sideWeight="0.5" order="4" side_tool="true" content_ui="combo" />
@@ -533,7 +438,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24140625" sideWeight="0.5" order="6" side_tool="true" content_ui="combo" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21197411" sideWeight="0.4992928" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2184466" sideWeight="0.4992928" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.20193861" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3171701" sideWeight="0.5007072" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -573,27 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/locale/string_en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
-          <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/string_vi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
-          <caret line="16" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/string.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
-          <caret line="16" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1100" max-vertical-offset="1717">
@@ -834,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1139">
           <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="969">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.20176731" vertical-offset="3299" max-vertical-offset="3978">
           <caret line="186" column="12" selection-start-line="186" selection-start-column="12" selection-end-line="186" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9230769" vertical-offset="1" max-vertical-offset="680">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-65.38461" vertical-offset="0" max-vertical-offset="1853">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="107" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/inc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.230769" vertical-offset="924" max-vertical-offset="1938">
+        <state vertical-scroll-proportion="0.415625" vertical-offset="924" max-vertical-offset="1938">
           <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
           <folding />
         </state>
@@ -904,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/locale/string_vi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.884615" vertical-offset="35" max-vertical-offset="731">
+        <state vertical-scroll-proportion="0.8315467" vertical-offset="35" max-vertical-offset="731">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding />
         </state>
@@ -912,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/locale/string_en.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.538462" vertical-offset="18" max-vertical-offset="731">
+        <state vertical-scroll-proportion="0.8575804" vertical-offset="18" max-vertical-offset="731">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding />
         </state>
@@ -920,23 +797,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+        <state vertical-scroll-proportion="0.20029455" vertical-offset="0" max-vertical-offset="679">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/css/subjects.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/subjects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3537519" vertical-offset="0" max-vertical-offset="1173">
+        <state vertical-scroll-proportion="0.5574273" vertical-offset="520" max-vertical-offset="1173">
           <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
@@ -944,6 +813,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/css/subjects.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6244477" vertical-offset="35" max-vertical-offset="714">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/documents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6538463" vertical-offset="1442" max-vertical-offset="2346">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/js/documents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/css/documents.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.724595" vertical-offset="324" max-vertical-offset="1224">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
-
