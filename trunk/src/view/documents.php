@@ -163,7 +163,9 @@ require_once '../locale/string.php';
 		</div>
 	</section>
 
-    <section id="documents_section"></section>
+    <section id="documents_section">
+
+	</section>
 
 </div>
 
