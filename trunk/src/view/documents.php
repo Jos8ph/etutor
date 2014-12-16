@@ -166,7 +166,8 @@ require_once '../locale/string.php';
     <section id="documents_section">
     	<div id="documents_section_header">
     		<h2>Newest</h2>
-    		<select>
+			<label for="documents_sort_list">Sort by</label>
+    		<select id="documents_sort_list">
     			<option>Newest</option>
     			<option>Popular</option>
     			<option>Rating</option>
@@ -179,6 +180,36 @@ require_once '../locale/string.php';
     		<h5>Uploader</h5>
     		<p><span>4.5/5</span><span>Download</span></p>
     	</div>
+		<div class="document_item">
+			<img src="./../../../asset/img/book1.jpg">
+			<h4>This is title</h4>
+			<h5>Uploader</h5>
+			<p><span>4.5/5</span><span>Download</span></p>
+		</div>
+		<div class="document_item">
+			<img src="./../../../asset/img/book2.png">
+			<h4>This is title</h4>
+			<h5>Uploader</h5>
+			<p><span>4.5/5</span><span>Download</span></p>
+		</div>
+		<div class="document_item">
+			<img src="./../../../asset/img/no_cover_book.gif">
+			<h4>This is title</h4>
+			<h5>Uploader</h5>
+			<p><span>4.5/5</span><span>Download</span></p>
+		</div>
+		<div class="document_item">
+			<img src="./../../../asset/img/book1.jpg">
+			<h4>This is title</h4>
+			<h5>Uploader</h5>
+			<p><span>4.5/5</span><span>Download</span></p>
+		</div>
+		<div class="document_item">
+			<img src="./../../../asset/img/book2.png">
+			<h4>This is title</h4>
+			<h5>Uploader</h5>
+			<p><span>4.5/5</span><span>Download</span></p>
+		</div>
 	</section>
 
 </div>
