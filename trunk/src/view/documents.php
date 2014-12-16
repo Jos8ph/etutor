@@ -164,7 +164,21 @@ require_once '../locale/string.php';
 	</section>
 
     <section id="documents_section">
+    	<div id="documents_section_header">
+    		<h2>Newest</h2>
+    		<select>
+    			<option>Newest</option>
+    			<option>Popular</option>
+    			<option>Rating</option>
+    		</select>
+    	</div>
 
+    	<div class="document_item">
+    		<img src="./../../../asset/img/no_cover_book.gif">
+    		<h4>This is title</h4>
+    		<h5>Uploader</h5>
+    		<p><span>4.5/5</span><span>Download</span></p>
+    	</div>
 	</section>
 
 </div>
