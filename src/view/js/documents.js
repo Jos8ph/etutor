@@ -39,4 +39,8 @@ $(document).ready(function() {
 
 		previousClickedCategory = $(this);
 	});
+
+	$('#documents_sort_list').change(function () {
+		$('#documents_section h2').text($(this).val());
+	});
 });

@@ -44,7 +44,7 @@
 
 #documents_category_section h4 {
 	padding: 9px 0 0 40px;
-	background-image: url('./../../../asset/img/plus_icon.png') no-repeat 8px 6px;
+	background: url('./../../../asset/img/plus_icon.png') no-repeat 8px 6px;
 	height: 26px;
 	font-size: 15px;
 	cursor: pointer;
@@ -74,6 +74,7 @@
 #documents_section_header {
 	overflow: auto;
 	border-bottom: 1px solid #666;
+	margin-bottom: 30px;
 }
 
 #documents_section, #documents_section_header *, .document_item {
@@ -85,8 +86,11 @@
 	font-size: 28px;
 	font-weight: normal;
 	color: #555;
-	font-weight: 100;
 	padding: 0 0 8px 20px;
+}
+
+#documents_section_header label {
+	margin: 8px 10px 0 0;
 }
 
 #documents_section_header select {
@@ -97,17 +101,19 @@
 
 /*--------------------------------*/
 .document_item {
-	width: 126px;
-	height: 228px;
-	border: 1px solid black;
-	padding: 8px 0 0 8px;
+	background-color: white;
+	height: 220px;
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid #e3e3e3;
+	margin: 0 0 25px 25px;
 }
 
 .document_item h4 {
 	color: #666;
-	margin: 5px 0 2px 0;
+	margin: 4px 0 2px 0;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .document_item h5 {
@@ -116,9 +122,15 @@
 }
 
 .document_item p {
-	margin-top: 5px;
+	margin: 8px 0 0 0;
+	font-size: 13px;
+	color: #444;
 }
 
 .document_item p span:first-child {
-	margin-right: 25px;
+	margin-right: 22px;
+}
+
+.document_item p span:last-child {
+	cursor: pointer;
 }
