@@ -3,6 +3,7 @@
 
 #documents_category_section {
 	width: 180px;
+	float: left;
 }
 
 .documents_category_subject > ul {
@@ -43,13 +44,11 @@
 
 #documents_category_section h4 {
 	padding: 9px 0 0 40px;
-	background-image: url('./../../../asset/img/plus_icon.png');
-	background-repeat: no-repeat;
-	background-position: 8px 6px;
+	background-image: url('./../../../asset/img/plus_icon.png') no-repeat 8px 6px;
 	height: 26px;
 	font-size: 15px;
 	cursor: pointer;
-	color: #333;
+	color: #4d4d4d;
 }
 
 .documents_category_grade {
@@ -64,4 +63,62 @@
 
 .documents_category_selected {
 	color: #d42b2a !important;
+}
+
+/*------------------------------*/
+
+#documents_section {
+	width: 830px;
+}
+
+#documents_section_header {
+	overflow: auto;
+	border-bottom: 1px solid #666;
+}
+
+#documents_section, #documents_section_header *, .document_item {
+	float: left;
+}
+
+#documents_section_header h2 {
+	width: 650px;
+	font-size: 28px;
+	font-weight: normal;
+	color: #555;
+	font-weight: 100;
+	padding: 0 0 8px 20px;
+}
+
+#documents_section_header select {
+	margin-top: 3px;
+	height: 26px;
+	width: 80px;
+}
+
+/*--------------------------------*/
+.document_item {
+	width: 126px;
+	height: 228px;
+	border: 1px solid black;
+	padding: 8px 0 0 8px;
+}
+
+.document_item h4 {
+	color: #666;
+	margin: 5px 0 2px 0;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.document_item h5 {
+	font-weight: normal;
+	color: #999;
+}
+
+.document_item p {
+	margin-top: 5px;
+}
+
+.document_item p span:first-child {
+	margin-right: 25px;
 }
